@@ -1,0 +1,14 @@
+{
+  "name": "clothes_store",
+  "version": "1.0.0",
+  "description": "clothes store using Sass",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css scss -w"
+  },
+  "keywords": [
+    "Sass"
+  ],
+  "author": "me",
+  "license": "ISC"
+}

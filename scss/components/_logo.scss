@@ -1,0 +1,45 @@
+.logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    
+    &-img {
+        width: 10rem;
+        height: 100%;
+        transform: rotate(-20deg);
+//        animation: logoAnim 5s infinite;
+        transform-origin: left;
+    }
+    
+    &-paragraph {
+        font-family: 'Great Vibes', cursive;
+        font-size: size(xl) + 1rem;
+        color: color(primary); 
+        margin-left: -1rem;
+        font-weight: bolder;
+    }
+}
+
+//@keyframes logoAnim {
+//    0% {
+//        transform: rotate(-20deg);
+//    }
+//    
+//    19% {
+//        transform: rotate(-20deg);
+//    }
+//    
+//    20% {
+//        transform: rotate(-20deg);
+//    }
+//    
+//    40% {
+//        transform: rotate(-10deg);
+//    }
+//    
+//    100% {
+//        transform: rotate(-20deg);
+//    }
+//}
