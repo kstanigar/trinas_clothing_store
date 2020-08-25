@@ -9,7 +9,6 @@
         width: 10rem;
         height: 100%;
         transform: rotate(-20deg);
-//        animation: logoAnim 5s infinite;
         transform-origin: left;
     }
     
@@ -22,28 +21,6 @@
         
         @include response(sm) {
         display: none;
-    }
+        }
     }
 }
-
-//@keyframes logoAnim {
-//    0% {
-//        transform: rotate(-20deg);
-//    }
-//    
-//    19% {
-//        transform: rotate(-20deg);
-//    }
-//    
-//    20% {
-//        transform: rotate(-20deg);
-//    }
-//    
-//    40% {
-//        transform: rotate(-10deg);
-//    }
-//    
-//    100% {
-//        transform: rotate(-20deg);
-//    }
-//}
