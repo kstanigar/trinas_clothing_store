@@ -50,6 +50,10 @@
         &-heading {
             font-size: size(xl) + 1.2rem;
             color: color(tertiary);
+            
+            @include response(sm) {
+                font-size: size(xl);
+            }
         }
         
         &-paragraph {

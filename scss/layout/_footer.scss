@@ -45,6 +45,12 @@
         @include response(md) {
         font-size: size(md);
         }
+        
+        span {
+        @include response(md) {
+            display: none;
+            }  
+        }
     }
     
     .inputs-group {

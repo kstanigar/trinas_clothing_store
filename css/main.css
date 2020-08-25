@@ -124,6 +124,9 @@ html {
     .slideshow-content-heading {
       font-size: 4.2rem;
       color: #f2f0f1; }
+      @media (max-width: 560px) {
+        .slideshow-content-heading {
+          font-size: 3rem; } }
     .slideshow-content-paragraph {
       color: #ffe;
       margin: 1rem 0;
@@ -312,6 +315,9 @@ html {
     @media (max-width: 760px) {
       .contact-paragraph {
         font-size: 2rem; } }
+    @media (max-width: 760px) {
+      .contact-paragraph span {
+        display: none; } }
   .contact .inputs-group {
     display: flex;
     justify-content: center; }
