@@ -611,6 +611,12 @@ html {
     font-weight: bolder;
 }
 
+@media (max-width: 560px) {
+    .logo-paragraph {
+        display: none;
+    }
+}
+
 .heading {
     grid-column: 1 / -1;
     grid-row: 2 / 3;

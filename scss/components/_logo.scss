@@ -19,6 +19,10 @@
         color: color(primary); 
         margin-left: -1rem;
         font-weight: bolder;
+        
+        @include response(sm) {
+        display: none;
+    }
     }
 }
 
