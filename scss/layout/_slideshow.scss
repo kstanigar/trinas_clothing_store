@@ -23,7 +23,7 @@
         left: 0;
         width: inherit;
         height: inherit;
-        animation: slideshow 20s linear infinite;
+        animation: slideshow 40s linear infinite;
         visibility: hidden;
         opacity: 0;
         
@@ -34,13 +34,13 @@
     }
     
     &-content {
-        background-color: rgba(color(primary), 0.5);
+        background-color: rgba(color(primary), 0.55);
         position: absolute;
         bottom: 6rem;
         left: 6rem;
         right: 6rem;
         max-width: 40rem;
-        padding: 5rem;
+        padding: 2.5rem;
         border-radius: 1rem;
         
         @include response(lg) {
@@ -85,7 +85,7 @@
 //    animation-delay: 16s;
 //}
 
-$animList: 1 0s, 2 4s, 3 8s, 4 12s, 5 16s;
+$animList: 1 0s, 2 8s, 3 16s, 4 24s, 5 32s;
 
 @each $item in $animList {
     .slideshow-slide:nth-child(#{nth($item, 1)}) {
@@ -99,12 +99,12 @@ $animList: 1 0s, 2 4s, 3 8s, 4 12s, 5 16s;
         opacity: 0;
     }
     
-    2% {
+    1% {
         visibility: visible;
         opacity: 1;
     }
     
-    18% {
+    19% {
         visibility: visible;
         opacity: 1;
     }
